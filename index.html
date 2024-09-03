@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandana Boppana</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/favicons/android-chrome-512x512.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/f6f6dc9eec.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Scroll to Top ⬆️ -->
+    <script src="./static/js/scrollToTop.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="logo-text">Chandana Boppana</p>
+          <!-- <img src="./assets/images/logo.png" class="logo" /> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Web Developer</p>
+          <h1>
+            Hi, I'm
+            <span class="name">Chandana<br />Boppana</span> From India.
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------About----------------------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="images">
+              <img src="shape1.png"alt="" class="shape">
+              <img src="./assets/images/Profile/photo-to-use.jpg" alt="" class="girl">
+          </div>
+          </div>
+          <div class="about-col-2 animate-entry-1">
+            <h1 class="sub-title">About Me</h1>
+
+            <p class="p-007">
+
+            <p id ="self_info">
+
+              "Hi, I'm Chandana Boppana. I'm a student pursuing a Bachelor of
+              Technology in Information Technology.
+               I've been passionate about coding and creating
+              visually appealing websites for 1 year. I'm excited to continue
+              learning and growing in my studies and development skills. With
+              basic knowledge in HTML5, CSS3. 
+              I'm good in Java and C programming languages
+              Moving to the back end, I'm skilled in
+              server-side technologies like Node.js, Express.js, and database
+              systems like MongoDB or MySQL. If you're looking for a motivated
+              and skilled front-end developer, I'd love to connect and discuss
+              how I can contribute to your team or project."
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming</span><br />C,Java,Python</li>
+                <li>
+                  <span>Front-End Web Development</span><br />HTML5, CSS3,
+                  JavaScript, ReactJs
+                </li>
+                <li>
+                  <span>Back-End Web Development</span><br />ExpressJs, Nodejs,
+                  MongoDB
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.tech in IT</span><br />Seshadri rao Gudlavalleru Engineering College
+                   <br />Cgpa:8.3
+                </li>
+                <li>
+                  <span>Diploma</span><br />Sir C R Reddy polytechnic College
+                  <br />Grade:85%
+                </li>
+                <li>
+                  <span>School</span><br />Siddhartha
+                  Vidyalaya <br />Cgpa:9.7%
+                </li>
+              </ul>
+            </div>
+          
+             
+          
+        
+    
+    <!-------------------------------Projects----------------------------->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list animate-entry-1">
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Collaborative Code Editor</h2>
+            <p class="p-007">
+              A collaborative code editor is a software platform that helps developers work together on code in real-time. These tools can help teams write, review, and refine code more efficiently, regardless of their location. Some benefits of using a collaborative code editor include: 
+Debugging: Developers can work together to identify and fix bugs in real-time. 
+Accountability: It's harder for one person to make mistakes or take shortcuts when multiple people are working on the same code. 
+Project continuity: Collaborative coding can help ensure that a project stays on track. 
+A web application that uses React.js and Node.js to provide a user-friendly platform for developers to collaborate on code. 
+Codeshare.It is a tool that allows users to share code in real-time with others who have access to the URL. Codeshare also has a video chat feature. 
+
+            </p>
+            
+            <a href="https://github.com/chandanaboppana/collaborative_code_editor" target="_blank"
+              >View Code</a
+            >
+          </div>
+          
+          <div>
+            <i class="fa-brands fa-product-hunt"></i>
+            <h2>Expense Tracker</h2>
+            <p class="p-007">
+              Expense Tracker is a software or application that helps to keep an accurate record of your money inflow and outflow. 
+              Many people in India live on a fixed income,and they find that towards the end of the month they don't have sufficient money to meet their needs.
+              In order to beat the problem this website help to maintain the proper expenses in the form of bar graphs and histograms.
+            </p>
+             <!-------project2--> 
+            
+            <a
+              href="https://github.com/chandanaboppana/Expense_tracker" target="_blank"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------------Contact Us-------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>chandanaboppana2002@gmail.com
+            </p>
+
+            <div class="social-icons">
+              
+                <!-- Adding the new logo of Twitter -->
+              
+              <a
+                href="https://www.linkedin.com/in/chandanaboppana/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/chandanaboppana" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <a href="./assets/docs/Chandana Resume.pdf" download class="btn btn2 "
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right animate-entry-1">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Good Name.."
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email..."
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <!-- My btn -->
+      <button class="back-to-top hidden-top-btn">
+        <a href="#header"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
+      </button>
+      <div class="copyright">
+        <p>
+          copyright @ Chandana. <i class="fa-solid fa-heart"></i> Made with HTML,
+          CSS and JavaScript
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxH5fxfqQLK9QR05D20SKhSxipraz0xHX-FsiWRiLW0UL9nRH9WckUCHoCCEKWqE7GcSg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML =
+              "ThankYou. Your Message has been sent Successfully.";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("scrolled", window.scrollY > 0);
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slideInElement = document.querySelectorAll(".animate-entry-1");
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active-animation");
+              // observer.unobserve(entry);
+            }
+          });
+        });
+        slideInElement.forEach((el) => observer.observe(el));
+      });
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://chandanaboppana.github.io/",
+        "@type": "Personal Portfolio Website",
+        "name": "Chandana Boppana",
+        "author": {
+          "@type": "Person",
+          "name": "Chandana Boppana"
+        },
+        "datePublished": "2023-03-04",
+        "description": "This is a Web Developer",
+        "prepTime": "PT20M"
+      }
+    </script>
+  </body>
+</html>
+
+
+<style>
+.images {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: -56%; /* Adjust this value to move the images down */
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        width: 30%; /* Adjust the width for smaller screens */
+        left: 10px; /* Adjust the left position for smaller screens */
+        bottom: -40%; /* Adjust the bottom position for smaller screens */
+    }
+
+    @media (max-width: 480px) {
+        width: 40%; /* Adjust the width for even smaller screens */
+        left: 5px; /* Adjust the left position for even smaller screens */
+        bottom: -20%; /* Adjust the bottom position for even smaller screens */
+    }
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .girl {
+    left: 45%;
+}
+</style>
